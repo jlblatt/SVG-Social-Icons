@@ -11,20 +11,20 @@
     <div class="social">
       <ul>
 
-        <li>
+        <li class="facebook">
           <a>
-            <div class="icon facebook">
+            <div class="icon">
               <?php echo file_get_contents("img/facebook.svg"); ?>
             </div>
-            <div class="circle">
+            <div class="circle ">
               <?php echo file_get_contents("img/circle.svg"); ?>
             </div>
           </a>
         </li>
         
-        <li>
+        <li class="twitter">
           <a>
-            <div class="icon twitter">
+            <div class="icon">
               <?php echo file_get_contents("img/twitter.svg"); ?>
             </div>
             <div class="circle">
@@ -33,9 +33,9 @@
           </a>
         </li>
         
-        <li>
+        <li class="linkedin">
           <a>
-            <div class="icon linkedin">
+            <div class="icon">
               <?php echo file_get_contents("img/linkedin.svg"); ?>
             </div>
             <div class="circle">
@@ -44,9 +44,9 @@
           </a>
         </li>
         
-        <li>
+        <li class="youtube">
           <a>
-            <div class="icon youtube">
+            <div class="icon">
               <?php echo file_get_contents("img/youtube.svg"); ?>
             </div>
             <div class="circle">
@@ -55,9 +55,9 @@
           </a>
         </li>
         
-        <li>
+        <li class="pinterest">
           <a>
-            <div class="icon pinterest">
+            <div class="icon">
               <?php echo file_get_contents("img/pinterest.svg"); ?>
             </div>
             <div class="circle">
@@ -66,9 +66,9 @@
           </a>
         </li>
         
-        <li>
+        <li class="instagram">
           <a>
-            <div class="icon instagram">
+            <div class="icon">
               <?php echo file_get_contents("img/instagram.svg"); ?>
             </div>
             <div class="circle">
@@ -77,9 +77,9 @@
           </a>
         </li>
         
-        <li>
+        <li class="googleplus">
           <a>
-            <div class="icon googleplus">
+            <div class="icon">
               <?php echo file_get_contents("img/googleplus.svg"); ?>
             </div>
             <div class="circle">
