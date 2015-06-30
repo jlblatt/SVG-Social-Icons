@@ -2,6 +2,15 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 
 
+h1 {
+  padding: 2rem 2rem .4rem 2rem;
+  font-size: 1.6rem;
+  line-height: 1.6;
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", "Calibri", "sans-serif";
+  text-transform: lowercase;
+  color: #333;
+}
 
 .social ul {
   text-align: center
@@ -71,7 +80,21 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
     .social ul li a:hover {
       cursor: pointer
     }
-      .social ul li a:hover .circle svg {
+      .social.x-spin ul li a:hover .circle svg {
+        -webkit-transform: scale(1.3) rotateX(180deg);
+        -moz-transform: scale(1.3) rotateX(180deg);
+        -ms-transform: scale(1.3) rotateX(180deg);
+        -o-transform: scale(1.3) rotateX(180deg);
+        transform: scale(1.3) rotateX(180deg);
+      }
+      .social.y-spin ul li a:hover .circle svg {
+        -webkit-transform: scale(1.3) rotateY(180deg);
+        -moz-transform: scale(1.3) rotateY(180deg);
+        -ms-transform: scale(1.3) rotateY(180deg);
+        -o-transform: scale(1.3) rotateY(180deg);
+        transform: scale(1.3) rotateY(180deg);
+      }
+      .social.xy-spin ul li a:hover .circle svg {
         -webkit-transform: scale(1.3) rotateX(180deg) rotateY(180deg);
         -moz-transform: scale(1.3) rotateX(180deg) rotateY(180deg);
         -ms-transform: scale(1.3) rotateX(180deg) rotateY(180deg);
