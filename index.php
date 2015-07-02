@@ -8,9 +8,8 @@
   </head>
   <body>
 
-    <h1>[X-Spin]</h1>
+    <?php ob_start(); ?>
 
-    <div class="social x-spin">
       <ul>
 
         <li class="facebook">
@@ -91,176 +90,56 @@
         </li>
 
       </ul>
+
+    <?php $list = ob_get_contents(); ?>
+    <?php ob_end_clean(); ?>
+
+    <h1>[No Spin Linear]</h1>
+
+    <div class="social no-spin linear">
+      <?php echo $list; ?>
     </div>
 
-    <h1>[Y-Spin]</h1>
+    <h1>[X-Spin Linear]</h1>
 
-    <div class="social y-spin">
-      <ul>
-
-        <li class="facebook">
-          <a>
-            <div class="icon">
-              <?php echo file_get_contents("img/facebook.svg"); ?>
-            </div>
-            <div class="circle ">
-              <?php echo file_get_contents("img/circle.svg"); ?>
-            </div>
-          </a>
-        </li>
-        
-        <li class="twitter">
-          <a>
-            <div class="icon">
-              <?php echo file_get_contents("img/twitter.svg"); ?>
-            </div>
-            <div class="circle">
-              <?php echo file_get_contents("img/circle.svg"); ?>
-            </div>
-          </a>
-        </li>
-        
-        <li class="linkedin">
-          <a>
-            <div class="icon">
-              <?php echo file_get_contents("img/linkedin.svg"); ?>
-            </div>
-            <div class="circle">
-              <?php echo file_get_contents("img/circle.svg"); ?>
-            </div>
-          </a>
-        </li>
-        
-        <li class="youtube">
-          <a>
-            <div class="icon">
-              <?php echo file_get_contents("img/youtube.svg"); ?>
-            </div>
-            <div class="circle">
-              <?php echo file_get_contents("img/circle.svg"); ?>
-            </div>
-          </a>
-        </li>
-        
-        <li class="pinterest">
-          <a>
-            <div class="icon">
-              <?php echo file_get_contents("img/pinterest.svg"); ?>
-            </div>
-            <div class="circle">
-              <?php echo file_get_contents("img/circle.svg"); ?>
-            </div>
-          </a>
-        </li>
-        
-        <li class="instagram">
-          <a>
-            <div class="icon">
-              <?php echo file_get_contents("img/instagram.svg"); ?>
-            </div>
-            <div class="circle">
-              <?php echo file_get_contents("img/circle.svg"); ?>
-            </div>
-          </a>
-        </li>
-        
-        <li class="googleplus">
-          <a>
-            <div class="icon">
-              <?php echo file_get_contents("img/googleplus.svg"); ?>
-            </div>
-            <div class="circle">
-              <?php echo file_get_contents("img/circle.svg"); ?>
-            </div>
-          </a>
-        </li>
-
-      </ul>
+    <div class="social x-spin linear">
+      <?php echo $list; ?>
     </div>
 
-    <h1>[XY-Spin]</h1>
+    <h1>[Y-Spin Linear]</h1>
 
-    <div class="social xy-spin">
-      <ul>
+    <div class="social y-spin linear">
+      <?php echo $list; ?>
+    </div>
 
-        <li class="facebook">
-          <a>
-            <div class="icon">
-              <?php echo file_get_contents("img/facebook.svg"); ?>
-            </div>
-            <div class="circle ">
-              <?php echo file_get_contents("img/circle.svg"); ?>
-            </div>
-          </a>
-        </li>
-        
-        <li class="twitter">
-          <a>
-            <div class="icon">
-              <?php echo file_get_contents("img/twitter.svg"); ?>
-            </div>
-            <div class="circle">
-              <?php echo file_get_contents("img/circle.svg"); ?>
-            </div>
-          </a>
-        </li>
-        
-        <li class="linkedin">
-          <a>
-            <div class="icon">
-              <?php echo file_get_contents("img/linkedin.svg"); ?>
-            </div>
-            <div class="circle">
-              <?php echo file_get_contents("img/circle.svg"); ?>
-            </div>
-          </a>
-        </li>
-        
-        <li class="youtube">
-          <a>
-            <div class="icon">
-              <?php echo file_get_contents("img/youtube.svg"); ?>
-            </div>
-            <div class="circle">
-              <?php echo file_get_contents("img/circle.svg"); ?>
-            </div>
-          </a>
-        </li>
-        
-        <li class="pinterest">
-          <a>
-            <div class="icon">
-              <?php echo file_get_contents("img/pinterest.svg"); ?>
-            </div>
-            <div class="circle">
-              <?php echo file_get_contents("img/circle.svg"); ?>
-            </div>
-          </a>
-        </li>
-        
-        <li class="instagram">
-          <a>
-            <div class="icon">
-              <?php echo file_get_contents("img/instagram.svg"); ?>
-            </div>
-            <div class="circle">
-              <?php echo file_get_contents("img/circle.svg"); ?>
-            </div>
-          </a>
-        </li>
-        
-        <li class="googleplus">
-          <a>
-            <div class="icon">
-              <?php echo file_get_contents("img/googleplus.svg"); ?>
-            </div>
-            <div class="circle">
-              <?php echo file_get_contents("img/circle.svg"); ?>
-            </div>
-          </a>
-        </li>
+    <h1>[XY-Spin Linear]</h1>
 
-      </ul>
+    <div class="social xy-spin linear">
+      <?php echo $list; ?>
+    </div>
+
+    <h1>[No Spin Elastic]</h1>
+
+    <div class="social no-spin elastic">
+      <?php echo $list; ?>
+    </div>
+
+    <h1>[X-Spin Elastic]</h1>
+
+    <div class="social x-spin elastic">
+      <?php echo $list; ?>
+    </div>
+
+    <h1>[Y-Spin Elastic]</h1>
+
+    <div class="social y-spin elastic">
+      <?php echo $list; ?>
+    </div>
+
+    <h1>[XY-Spin Elastic]</h1>
+
+    <div class="social xy-spin elastic">
+      <?php echo $list; ?>
     </div>
 
   </body>
