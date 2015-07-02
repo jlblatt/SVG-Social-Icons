@@ -8,6 +8,8 @@
   </head>
   <body>
 
+    <h1>[SVG Social Icons]</h1>
+
     <?php ob_start(); ?>
 
       <ul>
@@ -94,49 +96,49 @@
     <?php $list = ob_get_contents(); ?>
     <?php ob_end_clean(); ?>
 
-    <h1>[No Spin Linear]</h1>
+    <h2>[No Spin Linear]</h2>
 
     <div class="social no-spin linear">
       <?php echo $list; ?>
     </div>
 
-    <h1>[X-Spin Linear]</h1>
+    <h2>[X-Spin Linear]</h2>
 
     <div class="social x-spin linear">
       <?php echo $list; ?>
     </div>
 
-    <h1>[Y-Spin Linear]</h1>
+    <h2>[Y-Spin Linear]</h2>
 
     <div class="social y-spin linear">
       <?php echo $list; ?>
     </div>
 
-    <h1>[XY-Spin Linear]</h1>
+    <h2>[XY-Spin Linear]</h2>
 
     <div class="social xy-spin linear">
       <?php echo $list; ?>
     </div>
 
-    <h1>[No Spin Elastic]</h1>
+    <h2>[No Spin Elastic]</h2>
 
     <div class="social no-spin elastic">
       <?php echo $list; ?>
     </div>
 
-    <h1>[X-Spin Elastic]</h1>
+    <h2>[X-Spin Elastic]</h2>
 
     <div class="social x-spin elastic">
       <?php echo $list; ?>
     </div>
 
-    <h1>[Y-Spin Elastic]</h1>
+    <h2>[Y-Spin Elastic]</h2>
 
     <div class="social y-spin elastic">
       <?php echo $list; ?>
     </div>
 
-    <h1>[XY-Spin Elastic]</h1>
+    <h2>[XY-Spin Elastic]</h2>
 
     <div class="social xy-spin elastic">
       <?php echo $list; ?>
