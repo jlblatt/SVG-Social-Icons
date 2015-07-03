@@ -53,9 +53,9 @@ h2 {
             transition: all 0.3s;
           }
           .social.elastic ul li a .circle svg {
-            -webkit-transition: all 0.4s cubic-bezier(0.680, -0.550, 0.265, 1.550);
-            -moz-transition: all 0.4s cubic-bezier(0.680, -0.550, 0.265, 1.550);
-            transition: all 0.4s cubic-bezier(0.680, -0.550, 0.265, 1.550);
+            -webkit-transition: all 0.3s cubic-bezier(0.680, -0.550, 0.265, 1.550);
+            -moz-transition: all 0.3s cubic-bezier(0.680, -0.550, 0.265, 1.550);
+            transition: all 0.3s cubic-bezier(0.680, -0.550, 0.265, 1.550);
           }
 
       .social ul li a .icon {
