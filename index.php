@@ -114,9 +114,27 @@
       <?php echo $list; ?>
     </div>
 
+    <h2>[XZ-Spin Linear]</h2>
+
+    <div class="social x-spin z-spin linear">
+      <?php echo $list; ?>
+    </div>
+
+    <h2>[YZ-Spin Linear]</h2>
+
+    <div class="social y-spin z-spin linear">
+      <?php echo $list; ?>
+    </div>
+
     <h2>[XY-Spin Linear]</h2>
 
     <div class="social xy-spin linear">
+      <?php echo $list; ?>
+    </div>
+
+    <h2>[XYZ-Spin Linear]</h2>
+
+    <div class="social xy-spin z-spin linear">
       <?php echo $list; ?>
     </div>
 
@@ -138,9 +156,27 @@
       <?php echo $list; ?>
     </div>
 
+    <h2>[XZ-Spin Elastic]</h2>
+
+    <div class="social x-spin z-spin elastic">
+      <?php echo $list; ?>
+    </div>
+
+    <h2>[YZ-Spin Elastic]</h2>
+
+    <div class="social y-spin z-spin elastic">
+      <?php echo $list; ?>
+    </div>
+
     <h2>[XY-Spin Elastic]</h2>
 
     <div class="social xy-spin elastic">
+      <?php echo $list; ?>
+    </div>
+
+    <h2>[XYZ-Spin Elastic]</h2>
+
+    <div class="social xy-spin z-spin elastic">
       <?php echo $list; ?>
     </div>
 
